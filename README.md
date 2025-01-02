@@ -1,3 +1,7 @@
+Here’s the updated **GitHub README** file with your team name and contributors' section:  
+
+---
+
 # 🌾 AI Crop Yield Predictor  
 
 Welcome to **AI Crop Yield Predictor**, an innovative solution developed as part of **SynapHack**, an online hackathon organized by **Galgotias University**. This platform empowers farmers and stakeholders with AI-driven insights to optimize crop yields by leveraging cutting-edge technologies and sustainability principles.  
@@ -142,6 +146,17 @@ We welcome contributions! If you'd like to improve this project, follow these st
 
 ---
 
+## 👥 Team Pureish  
+This project was created by **Team Pureish** during the SynapHack Hackathon.  
+
+- **Tanmay Srivastav**  
+  [![GitHub](https://img.shields.io/badge/GitHub-Tanmay019AI-blue?logo=github)](https://github.com/tanmay019ai/)  
+
+- **DevDynamo**  
+  [![GitHub](https://img.shields.io/badge/GitHub-DevDynamo0125-blue?logo=github)](https://github.com/DevDynamo0125/)  
+
+---
+
 ## 🎉 Acknowledgments  
 This project was developed as part of **SynapHack**. Special thanks to the organizers, mentors, and all participants for their support and collaboration.  
 
@@ -149,3 +164,7 @@ This project was developed as part of **SynapHack**. Special thanks to the organ
 
 ## 📜 License  
 This project is licensed under the [MIT License](LICENSE).  
+
+---  
+
+Let me know if any further tweaks are needed!
