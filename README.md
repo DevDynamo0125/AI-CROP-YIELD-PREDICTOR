@@ -152,7 +152,7 @@ This project was created by **Team Pureish** during the SynapHack Hackathon.
 - **Tanmay Srivastav**  
   [![GitHub](https://img.shields.io/badge/GitHub-Tanmay019AI-blue?logo=github)](https://github.com/tanmay019ai/)  
 
-- **DevDynamo**  
+- **Sneha prakash**  
   [![GitHub](https://img.shields.io/badge/GitHub-DevDynamo0125-blue?logo=github)](https://github.com/DevDynamo0125/)  
 
 ---
