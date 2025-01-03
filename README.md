@@ -142,6 +142,17 @@ We welcome contributions! If you'd like to improve this project, follow these st
 
 ---
 
+## 👥 Team Pureish  
+This project was created by **Team Pureish** during the SynapHack Hackathon.  
+
+- **Tanmay Srivastav**  
+  [![GitHub](https://img.shields.io/badge/GitHub-Tanmay019AI-blue?logo=github)](https://github.com/tanmay019ai/)  
+
+- **Sneha prakash**  
+  [![GitHub](https://img.shields.io/badge/GitHub-DevDynamo0125-blue?logo=github)](https://github.com/DevDynamo0125/)  
+
+---
+
 ## 🎉 Acknowledgments  
 This project was developed as part of **SynapHack**. Special thanks to the organizers, mentors, and all participants for their support and collaboration.  
 
