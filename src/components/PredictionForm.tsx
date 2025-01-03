@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { CropData } from '../types';
-import { Droplet, Thermometer, Beaker, Leaf } from 'lucide-react';
+import { Thermometer, Beaker, Droplet } from 'lucide-react';
+import CropTypeSelector from './CropTypeSelector';
 
 const initialData: CropData = {
   cropType: 'wheat',
@@ -25,35 +26,26 @@ export default function PredictionForm({ onSubmit }: PredictionFormProps) {
     onSubmit(formData);
   };
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({
       ...prev,
-      [name]: name === 'cropType' ? value : Number(value)
+      [name]: Number(value)
+    }));
+  };
+
+  const handleCropTypeChange = (cropType: string) => {
+    setFormData(prev => ({
+      ...prev,
+      cropType
     }));
   };
 
   return (
     <form onSubmit={handleSubmit} className="space-y-6 bg-white p-6 rounded-lg shadow-md">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div className="space-y-2">
-          <label className="flex items-center space-x-2 text-sm font-medium text-gray-700">
-            <Leaf className="w-4 h-4" />
-            <span>Crop Type</span>
-          </label>
-          <select
-            name="cropType"
-            value={formData.cropType}
-            onChange={handleChange}
-            className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500"
-          >
-            <option value="wheat">Wheat</option>
-            <option value="rice">Rice</option>
-            <option value="corn">Corn</option>
-            <option value="soybean">Soybean</option>
-          </select>
-        </div>
+      <CropTypeSelector value={formData.cropType} onChange={handleCropTypeChange} />
 
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="space-y-2">
           <label className="flex items-center space-x-2 text-sm font-medium text-gray-700">
             <Beaker className="w-4 h-4" />
